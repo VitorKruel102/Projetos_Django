@@ -1,0 +1,78 @@
+"""
+==================================================================
+
+                ARQUITETURA E CLIENTE-SERVIDOR
+            Clients -----> Internet -----> Server
+
+==================================================================
+"""
+
+Protocolo_HTTP = 'Protocolo de Transferência de Hipertexto.'
+
+HTTP = 'porta 80' # Site menos seguro
+HTTPS = 'porta 443'  # Utilizam dados criptografados
+
+# Métodos para realizar ações:
+
+get = ['Buscar dados', 'Cache']
+post = 'Criar um novo recurso'
+put_patch = 'Atualizar um recurso existente'
+delete = 'Remover um recurso'
+
+"""
+==================================================================
+
+                BACKEND x FRONTEND x FULL-STACK
+                
+==================================================================
+"""
+
+frontend = 'É resonsável pela apresentação do software, chamado \n
+            client-side (cliente-Server)'
+
+funcionalidades_frontend = [
+    'Criar páginas',
+    'Telas com boa usabilidade',
+    'Carregamento rápido',
+    'Integrar com os serviços do backend'
+]
+
+
+backend = 'Fornece e garante todas as regras do negóciom acesso a \n
+           banco de dados, segurança e escalabilidade.'
+
+funcionalidades_backend = [
+    'Web server',
+    'Dataase',
+    'Garante a integridade dos dados',
+]
+
+
+fullstack = 'Trabalha tanto com o frontend quanto como backend. \n
+             Entrega os projetos do inicio ao fim.'
+
+
+"""
+==================================================================
+
+                PROGRAMAÇÃO ESTÁTICA x DINÂMICA
+                
+==================================================================
+"""
+
+linguagem_estatica = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'outros'
+]
+
+linguagem_dinamica = [
+    'Python',
+    'Java',
+    'Ruby',
+    'PHP',
+    'C#',
+    'JavaScript',
+    'outros'
+]

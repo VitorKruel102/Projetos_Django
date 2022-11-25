@@ -1,0 +1,43 @@
+"""
+=========================================================================
+
+                        INTRODUÇÃO AO HTML
+
+=========================================================================
+"""
+
+html = 'Utilizamos para cirar estruturas para páginas web: secções, \n
+        parágrafos, cabeçalhos, divisões, links e etc.'
+
+divisoes_pagina_web = {
+    'Header': 'Tags de informação sobre o site, aplicaçaõ de estilo',
+    'Body': 'Conteúdo do site que é apresentado ao cliente',
+    'Footer': 'Carregamento de scripts JavaScript e apresentação de dados 
+}
+    
+# É subdivididas em dois grupos principais:
+
+elemento_de_bloco = 'Utilizam todo o espaço disponível e começam uma \n
+                     nova linha no documento'
+elemento_em_linha = 'Utiizam apenas o espaço necessário e não criam \n
+                     uma quebra de linha'
+
+tags_utilizadas_blocos = {
+    '<html>': 'Elemento de maior nível',
+    '<head>': 'Possui meta(charset) e título da página',
+    '<body>': 'Engloba todos os elementos da página',
+    '<h1>': 'Cabeçalhos, de 1 a 6',
+    '<div>': 'Divisões de seções',
+    '<p>': 'Paragrafo',
+    '<blockquote>': 'Bloco de citação',
+    '<ol>': 'Listas ordenadas',
+    '<ul>': 'Listas não ordenadas',
+    '<li>': 'item de Listas',
+}
+
+tags_utilizadas_linha = {
+    '<strong>': 'Renderiza o texto em negrito',
+    '<em>': 'Renderiza o texto em italico',
+    '<a>': 'Cria um link para outra página',
+    '<img>': 'Adiciona imagem na página'
+}

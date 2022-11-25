@@ -1,0 +1,33 @@
+"""
+==============================================================
+
+                    Introdução ao CSS 
+
+==============================================================
+"""
+
+css = 'Significa Cascading Style Sheets, Folha de estilo. \n 
+       É focado no estilo/estética do site.' 
+
+formas_formatacao_css = {
+    'TAG': 'Quando queremos que todas as tags recebam essa formatação.'
+    'CLASSE': 'Que todo elemento que tenha esta classe seja formatada.'
+    'ID': Elementos individuais.
+}   
+
+"""TAGS"""
+p {
+    color: red;
+    font-weight: bold;
+}
+
+"""CLASSE"""
+.verde {
+    color: green ;
+    font-size: 42px; 
+}
+
+"""ID"""
+#p2 {
+    text-decoration: underline;
+}

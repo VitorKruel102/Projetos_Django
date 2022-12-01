@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "site-first"
+version = "0.1.0"
+description = ""
+authors = ["Vitor Kruel102 <vkruel.programador@gmail.com>"]
+readme = "README.md"
+packages = [{include = "site_first"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -37,6 +37,7 @@ funcionalidades_frontend = [
     'Integrar com os serviços do backend'
 ]
 
+# Frontend - Boostrap
 
 backend = 'Fornece e garante todas as regras do negóciom acesso a \n
            banco de dados, segurança e escalabilidade.'
@@ -47,6 +48,7 @@ funcionalidades_backend = [
     'Garante a integridade dos dados',
 ]
 
+# Backend - Boostrap
 
 fullstack = 'Trabalha tanto com o frontend quanto como backend. \n
              Entrega os projetos do inicio ao fim.'

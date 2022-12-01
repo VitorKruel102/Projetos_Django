@@ -8,5 +8,9 @@
 # Inicialização do Django
 
 >> django-admin startproject <nome_projeto> .
+>> django-admin startapp core
+# Estrutura do Projeto
+
+--> settings.py (Configuração do projeto)
 
 

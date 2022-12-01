@@ -10,6 +10,7 @@
 >> django-admin startproject <nome_projeto> .   (Projeto)
 >> django-admin startapp core                   (Aplicação)
 >> python manage.py runserver
+>> python manage.py makemigrations
 
 ===========================================================
 # Projeto x Aplicações django

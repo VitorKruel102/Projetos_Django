@@ -1,0 +1,15 @@
+"""
+==================================================================
+
+                        JavaScript
+
+==================================================================
+"""
+javascript = 'Encarregado dos comportamentos e ações das páginas.'
+
+comportamento_web = {
+    'HTML': 'Estrutura',
+    'CSS': 'Estilos',
+    'JAVASCRIPT': 'Comportamento/ações' 
+}
+

@@ -5,6 +5,8 @@
 
 ===========================================================
 """
+# Inicialização do Django
 
-# Criando Ambiente Virtual e Instalando o Django
+>> django-admin startproject <nome_projeto> .
+
 

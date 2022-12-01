@@ -7,10 +7,24 @@
 """
 # Inicialização do Django
 
->> django-admin startproject <nome_projeto> .
->> django-admin startapp core
-# Estrutura do Projeto
+>> django-admin startproject <nome_projeto> .   (Projeto)
+>> django-admin startapp core                   (Aplicação)
+>> python manage.py runserver
 
---> settings.py (Configuração do projeto)
+===========================================================
+# Projeto x Aplicações django
 
+Um projeto django pode ter várias Aplicações, cada uma com sua
+tareja específica e essas aplicações podem ser replicadas em
+outros projetos.
+
+Exemplo:.
+
+            E-commerce
+    Cliente            Entrega       (Aplicação)
+    Pagamentos         Produtos      (Aplicação)
+    Carrinho           Promoções     (Aplicação)
+    Pedidos            Cupons        (Aplicação)
+
+===========================================================
 

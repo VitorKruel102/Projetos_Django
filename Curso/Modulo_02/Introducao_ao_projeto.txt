@@ -12,6 +12,7 @@
 >> python manage.py runserver
 >> python manage.py makemigrations    (Utilizado sempre que criar um models)
 >> python manage.py migrate           (Realiza a migração do micrations)
+>> python manage.py createsuperuser           (Cria Usuário)
 
 ===========================================================
 # Projeto x Aplicações django

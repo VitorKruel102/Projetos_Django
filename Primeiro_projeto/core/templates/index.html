@@ -13,7 +13,7 @@
             <img src="{% static 'images/django.png' %}">
             <h2>{{curso}}</h2>
             <p>{{outro}}</p>
-            <table>
+            <table  class="table">
                 <thead>
                     <tr>
                         <th>Produto</th>
@@ -29,8 +29,9 @@
                     {% endfor %}
                 </tbody>
             </table>
+            <br><br>
             <button onclick="teste();">click-me</button>
-            <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
         </div>
+        <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
     </body>
 </html>

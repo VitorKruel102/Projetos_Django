@@ -1,24 +1,24 @@
-{% load boostrap4 %}
+{% load bootstrap4 %}
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
         <title>Contato</title>
         <meta charset="utf-8">
-        {% boostrap_css %}
+        {% bootstrap_css %} <!-- Estilos do formulário --> 
     </head>
     <body>
         <div class="container">
         <h1>Contato</h1>
-        {% boostrap_messages %}
+        {% bootstrap_messages %}
 
         <form action="{% url 'contato' %}" method="post" class="form" autocomplete="off">
-            {% csrf_token %}
-            {% boostrap_form form %}
+            {% csrf_token %} <!-- Segurança do formulario --> 
+            {% bootstrap_form form %} <!-- Visualização do formulario --> 
             {% buttons %}
                 <button type="submit" class="btn btn-primary">Enviar mensagem</button>
             {% endbuttons %}
         </form>
         </div>
-        {% boostrap_javasript jquery='full' %}
+        {% bootstrap_javascript jquery='full' %}
     </body>
 </html>

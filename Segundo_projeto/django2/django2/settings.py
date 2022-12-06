@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'bootstrap4'
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Configuração de e-mail
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+"""
+EMAIL_ROST - 'localhost'
+EMAIL_HOST_USER - 'no-replay@seudominio.com.br
+EMAIL_PORT- 587
+EMAIL_USER_TSL - True
+EMAIL_HOST_PASSWORD - 'Minha_senha'
+"""

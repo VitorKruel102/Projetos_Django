@@ -7,7 +7,18 @@
         {% boostrap_css %}
     </head>
     <body>
+        <div class="container">
         <h1>Contato</h1>
+        {% boostrap_messages %}
+
+        <form action="{% url 'contato' %}" method="post" class="form" autocomplete="off">
+            {% csrf_token %}
+            {% boostrap_form form %}
+            {% buttons %}
+                <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            {% endbuttons %}
+        </form>
+        </div>
         {% boostrap_javasript jquery='full' %}
     </body>
 </html>
